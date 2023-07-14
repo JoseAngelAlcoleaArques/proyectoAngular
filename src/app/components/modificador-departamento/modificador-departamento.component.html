@@ -1,0 +1,17 @@
+<form class="container-form">
+  <div class="mb-3">
+    <label for="nombre" class="form-label">Nombre del departamento</label>
+    <input [(ngModel)]="nombre" class="form-control" id="nombre" name="nombre" aria-describedby="emailHelp">
+  </div>
+  <div class="mb-3">
+    <label for="telefono" class="form-label">Telefono del departamento</label>
+    <input [(ngModel)]="telefono" class="form-control" id="telefono" name="telefono" aria-describedby="emailHelp">
+  </div>
+  <div class="mb-3">
+    <label for="email" class="form-label">Correo del departamento</label>
+    <input [(ngModel)]="correo" class="form-control" id="email" name="email" aria-describedby="emailHelp">
+  </div>
+
+
+  <button (click)="cambiarDatos()" class="btn btn-primary">Guardar</button>
+</form>

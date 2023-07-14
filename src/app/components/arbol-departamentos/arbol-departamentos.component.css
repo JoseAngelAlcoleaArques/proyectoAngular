@@ -1,0 +1,27 @@
+a:link, a:visited, a:active {
+  text-decoration:none;
+  color: black;
+}
+
+h6{
+  border: 1px solid black;
+  padding: 5px;
+  background-color: rgb(243, 243, 243);
+  border-radius: 5px;
+}
+
+p{
+  border: 1px solid black;
+  padding: 5px;
+  background-color: rgb(243, 243, 243);
+  border-radius: 5px;
+}
+
+.container-arbol{
+  background-color: white;
+  border: 1px solid black;
+  padding: 15px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  border-radius: 5px;
+}

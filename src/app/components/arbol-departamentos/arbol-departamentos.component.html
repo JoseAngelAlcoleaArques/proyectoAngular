@@ -1,0 +1,65 @@
+<ul class="container-arbol">
+  <li>
+    <a data-bs-toggle="collapse" href="#collapse1">
+      <h6>UCAM</h6>
+    </a>
+  </li>
+  <ul class="collapse" id="collapse1">
+    <li><a data-bs-toggle="collapse" href="#collapse2" (click)="departamentoSeleccionado(padre1)">
+      <p>
+        {{ padre1.nombre }}
+      </p>
+    </a></li>
+    <ul class="collapse" id="collapse2">
+      <li><a (click)="departamentoSeleccionado(hijo1)">
+        <p>
+          {{ hijo1.nombre }}
+        </p>
+      </a></li>
+      <li><a (click)="departamentoSeleccionado(hijo2)">
+        <p>
+          {{ hijo2.nombre }}
+        </p>
+      </a></li>
+    </ul>
+    <li><a data-bs-toggle="collapse" href="#collapse3" (click)="departamentoSeleccionado(padre2)">
+      <p>
+        {{ padre2.nombre }}
+      </p>
+    </a></li>
+    <ul class="collapse" id="collapse3">
+      <li><a (click)="departamentoSeleccionado(hijo3)">
+        <p>
+          {{ hijo3.nombre }}
+        </p>
+      </a></li>
+      <li><a (click)="departamentoSeleccionado(hijo4)">
+        <p>
+          {{ hijo4.nombre }}
+        </p>
+      </a></li>
+    </ul>
+    <li><a data-bs-toggle="collapse" href="#collapse4" (click)="departamentoSeleccionado(padre3)">
+      <p>
+        {{ padre3.nombre }}
+      </p>
+    </a></li>
+    <ul class="collapse" id="collapse4">
+      <li><a (click)="departamentoSeleccionado(hijo5)">
+        <p>
+          {{ hijo5.nombre }}
+        </p>
+      </a></li>
+      <li><a (click)="departamentoSeleccionado(hijo6)">
+        <p>
+          {{ hijo6.nombre }}
+        </p>
+      </a></li>
+      <li><a (click)="departamentoSeleccionado(hijo7)">
+        <p>
+          {{ hijo7.nombre }}
+        </p>
+      </a></li>
+    </ul>
+  </ul>
+</ul>
